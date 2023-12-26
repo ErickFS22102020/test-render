@@ -1,0 +1,6 @@
+services:
+- type: web
+  name: test-render
+  env: static
+  buildCommand: "ng build"
+  staticPublishPath: ./dist/test-render
